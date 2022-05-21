@@ -11,3 +11,14 @@ Open ```wrangler.toml```
 ```JWT_SECRET``` : A JWT SECRET
 
 ```bucket_name``` : R2 Storage Bucket Name
+
+#### JWT Signature Structure
+
+```json
+{
+  "file": "{your_file_name}",
+  "exp": 1653125037
+}
+```
+
+Example URL: ```https://{your_cloudflare_workers_url}/{your_file_name}?token={signed_jwt_token}```
