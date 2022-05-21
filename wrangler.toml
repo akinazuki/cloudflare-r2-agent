@@ -1,0 +1,17 @@
+name = ""
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+#compatibility_flags = ["r2_public_beta_bindings"]
+workers_dev = true
+compatibility_date = "2022-05-21"
+account_id = ""
+
+[vars]
+JWT_SECRET = ""
+
+[[r2_buckets]]
+binding = 'MY_BUCKET'
+bucket_name = ''
+#preview_bucket_name = ''
